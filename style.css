@@ -6,7 +6,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: 80vh;
     flex-direction: column;
     padding: 20px;
     margin: 20px;
@@ -15,7 +15,7 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    min-height: 85vh;
+    min-height: 50vh;
     flex-direction: row;
     margin-top: 20px;
     align-items: flex-start;
@@ -23,14 +23,14 @@
 
 .slot {
     /* background-color: blue; */
-    height: 100px;
-    width: 100px;
+    height: 80px;
+    width: 80px;
     overflow: hidden;
 }
 
 .hole {
-    height: 80px;
-    width: 80px;
+    height: 60px;
+    width: 60px;
     border: 40px solid teal;
     border-radius: 50%;
     transform: translate(-30px, -30px);
@@ -52,14 +52,14 @@
 .victoryBox1 {
     /* background-color: grey;
     border: solid black 1px; */
-    height: 80vh;
+    height: 60vh;
     width: 300px;
     text-align: center;
     visibility: hidden;
 }
 
 p {
-    font-size: 50px;
+    font-size: 30px;
     padding-top: 10px;
     margin-top: 15px;
 }
@@ -67,7 +67,7 @@ p {
 .victoryBox2 {
     /* background-color: grey;
     border: solid black 1px; */
-    height: 80vh;
+    height: 60vh;
     width: 300px;
     text-align: center;
     color: burlywood;
@@ -81,7 +81,8 @@ p {
     flex-direction: row;
     width: 700px;
     height: 80px;
-    margin-top: 1%;
+    margin-top: 5%;
+    padding-top: 5%;
     /* border: black solid 2px;
     margin-bottom: 30px; */
 }
